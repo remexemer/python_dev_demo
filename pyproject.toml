@@ -26,6 +26,9 @@ classifiers = [
     "Private :: Do Not Upload",
 ]
 
+[tool.poetry.scripts]
+fact = "fact.cli:app"
+
 [tool.poetry.dependencies]
 python = "^3.9, <3.12"
 pytest = "^7.4.2"
