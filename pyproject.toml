@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fact"
+version = "0.1.0"
+description = ""
+authors = ["remexemer <tingshuo.hsu@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
